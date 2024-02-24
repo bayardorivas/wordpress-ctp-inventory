@@ -1,0 +1,28 @@
+{
+  "name": "wordpress-ctp-inventory",
+  "version": "1.0.0",
+  "description": "Wordpress-Core-Theme-Plugin Inventory is a simple app to store installed versions of CTPs in your Wordpress sites.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayardorivas/wordpress-ctp-inventory.git"
+  },
+  "author": "bayardo.rivas@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bayardorivas/wordpress-ctp-inventory/issues"
+  },
+  "homepage": "https://github.com/bayardorivas/wordpress-ctp-inventory#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
